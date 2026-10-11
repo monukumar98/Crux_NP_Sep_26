@@ -23,6 +23,9 @@ public class Pattern21 {
 			}
 			// star
 			int k=1;
+			if(row==n) {
+				k=2;
+			}
 			while(k<=star) {
 				System.out.print("* ");
 				k++;
